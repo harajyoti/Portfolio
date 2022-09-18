@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    min-width: 100%;
+    height: auto;
+    background-color: #3120E0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto 45px;
+}
+
+.cv-btn {
+    font-weight: bold;
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.cv-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease;
+}
+
+
+.logo {
+
+    /* flex-basis: 20%; */
+    text-align: right;
+    /* border: 1px solid red; */
+
+}
+
+.Logo-name{
+
+    flex-basis: 30%;
+    color:#fff;
+    font-size: 30px;
+    font-family: 'Smooch', cursive;
+    /* border: 1px solid red; */
+    
+}
+.nav-links{
+    margin-right: 180px;
+    font-family: 'ABeeZee', sans-serif;
+}
+ 
+body{
+    overflow: hidden;
+}
+
+.img2{
+    width: 400px;
+    padding-top: 239px;
+    padding-left: 30px;
+    
+}
+.footer {
+    padding: 7px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 27px;
+    background-color: #EAF6F6;
+    font-family: 'ABeeZee', sans-serif;
+  }
+
+.footer-credit{
+    margin: auto 45px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.bout{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.hi{
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: 50px; 
+}
+.name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+}
+
+.about{
+    font-family: 'Inconsolata', monospace;
+}
+.position{
+    position: relative;
+}
+.img1{
+    border-radius: 40%;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: -113px;
+    top: 127px;
+
+
+}
+
+
+.circle{
+
+    border-radius: 50%;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: -113px;
+    top: 127px;
+    background: rgba(4, 14, 254, 0.98);
+}
