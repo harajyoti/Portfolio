@@ -123,13 +123,13 @@ body{
     position: relative;
 }
 .img1{
-    z-index=1;
     border-radius: 40%;
     position: relative;
     width: 400px;
     height: 400px;
     left: -113px;
     top: 127px;
+    z-index=1;
 
 
 }
