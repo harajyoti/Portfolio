@@ -118,21 +118,34 @@ body{
 
 .about{
     font-family: 'Inconsolata', monospace;
+    
 }
 .position{
     position: relative;
 }
 .img1{
     border-radius: 40%;
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 400px;
-    left: -113px;
-    top: 127px;
+    left: -24px;
+    top: 97px;
     z-index: 1;
-
+    
 
 }
+.img11{
+    border-radius: 39px;
+    position: absolute;
+    width: 222px;
+    height: 329px;
+    left: 32px;
+    top: 187px;
+    z-index: 1;
+    
+
+}
+
 
 
 .circle{
@@ -144,4 +157,44 @@ body{
     left: -113px;
     top: 127px;
     background: rgba(4, 14, 254, 0.98);
+}
+
+.pili{
+
+    clip-path: polygon(0 0, 66% 0, 100% 100%, 30% 100%);
+    background-color: #BDF2D5;
+    position: absolute;
+    width: 650px;
+    height: 370px;
+    left: 380px;
+    top: 178px;
+    
+
+
+}
+
+.about1{
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: 50px;
+    position: absolute;
+
+}
+
+.aboutt{
+    position: absolute;
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: 40px;
+    top: 132px;
+    left: 546px;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    font-family: 'Kaushan Script', cursive;
 }
